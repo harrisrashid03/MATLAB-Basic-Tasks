@@ -1,0 +1,5 @@
+RGB = uint8(zeros(2,2,3));
+RGB(:,:,1) = [255 0; 0 255];   % Red
+RGB(:,:,2) = [0 255; 255 0];   % Green
+RGB(:,:,3) = [0 0; 255 255];   % Blue
+imshow(RGB);
