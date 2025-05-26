@@ -1,0 +1,7 @@
+bacteria = 100;
+time = 0;
+while bacteria < 10000
+    bacteria = bacteria * 2;
+    time = time + 1;
+    fprintf('Hour %d: Bacteria count = %d\n', time, bacteria);
+end
