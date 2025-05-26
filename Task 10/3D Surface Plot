@@ -1,0 +1,4 @@
+[x, y] = meshgrid(-2*pi:0.1:2*pi, -2*pi:0.1:2*pi);
+z = sin(x) .* cos(y);
+surf(x, y, z);
+title('3D Plot of sin(x) * cos(y)');
