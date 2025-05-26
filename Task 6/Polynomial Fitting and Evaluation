@@ -1,0 +1,5 @@
+x = [1 2 3 4 5];
+y = [2.2 2.8 3.6 4.5 5.1];
+p = polyfit(x, y, 2);
+y_est = polyval(p, 3.5);
+fprintf('Estimated value at x=3.5 is %.2f\n', y_est);
